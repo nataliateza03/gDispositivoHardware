@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    position: relative;
+    max-width: 100vw;
+
+}
+
+header h1{
+    font-size: 5.8rem;
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+}
+header img{
+    width:100%;
+    border-bottom: 3px solid #273992;
+}
+header nav {
+    
+    border-top: 2px solid #ffffff;
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    padding: 1rem 1.5rem;
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 1.9rem;
+    color: #a0cae6dd;
+}
+
+nav ul li a:hover {
+    font-size: 2.7rem;
+    color: rgb(107, 163, 212)
+}
+
+
+
+main section h2{
+   
+    font-size: 2.7rem;
+    color: rgb(10, 25, 48);
+    font-style:unset;
+    text-align: center;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+main section p{
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.759);
+    text-align: center;
+    width: 100%;
+    display: flex;
+
+}
+main section ul li{
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.759);
+    display: flex;
+    justify-content: center;
+
+}
+main section p{
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.759);
+    display: flex;
+    justify-content: center;
+
+}
+
+section.galeria{
+   
+    margin-left: 100px;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+section.galeria img {
+    height: 200px;
+}
+
+main section ol li{
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.759);
+    display: flex;
+    justify-content: center;
+    margin-left:15px;
+
+}
+.links {
+    border: 1px solid #999999;
+    background-color: rgba(238, 238, 238, 0.372);
+    border-radius: 1rem;
+    width: 95%;
+    display: inline-block;
+    margin: 1rem;
+    padding: 2rem 4rem;
+}
+
+footer {
+    margin-top: 25rem;
+    background-color: #000000ed;
+    text-align: center;
+    padding: 2.5rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
